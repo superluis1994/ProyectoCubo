@@ -8,14 +8,17 @@ Mapeamos la url ingresada en el navegador
 
 class Core {
 
-    protected $controladorActual = `paginas`;
-    protected $metodoActual = `index`;
+    protected $controladorActual = 'paginas';
+    protected $metodoActual = 'index';
     protected $parametros = [];
+   //constructor
+    public function __construct(){
+        $url = $this->getUrl();
+    }
 
+    public function getUrl(){
 
-    public function geturl(){
-
-        echo $_GET[`url`];
+        echo $_GET['url'];
     }
 
 }
