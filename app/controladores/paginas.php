@@ -6,8 +6,12 @@ class Paginas extends Controlador{
 
     }
     public function index(){
+
+        $datos =[
+            'titulo'=>'Bienvenido sorto'
+        ];
        
-           $this->vista("paginas/inic");
+           $this->vista("paginas/inicio",$datos);
     }
 
 

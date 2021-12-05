@@ -1,1 +1,1 @@
-<h1>si existe la vista</h1>
+<h1><?php echo $datos['titulo'];   ?></h1>
