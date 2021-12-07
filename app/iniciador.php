@@ -1,4 +1,6 @@
+
 <?php
+
 //Cargamos libreras
 require_once 'config/configurar.php';
 // require_once 'librerias/Base.php';

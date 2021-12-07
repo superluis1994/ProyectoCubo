@@ -14,6 +14,13 @@ class Paginas extends Controlador{
            $this->vista("paginas/inicio",$datos);
     }
 
+    public function adm(){
+
+      
+       
+           $this->vista("paginas/adm.php");
+    }
+
 
     public function dato($num_registre){
         echo $num_registre;
