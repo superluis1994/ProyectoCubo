@@ -2,7 +2,7 @@
 
 
 
-
+<?php require_once RUTA_APP.'/vistas/paginas/pruba.php'; ?> 
  
 
 
