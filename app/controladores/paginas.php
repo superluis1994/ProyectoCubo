@@ -18,7 +18,7 @@ class Paginas extends Controlador{
 
       
        
-           $this->vista("paginas/adm.php");
+           $this->vista("paginas/adm");
     }
 
 
